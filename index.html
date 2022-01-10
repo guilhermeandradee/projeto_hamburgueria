@@ -31,7 +31,19 @@
         }
 
         nav.menu_bar {
+         /*   padding: 15px;*/
+        }
+
+        .btn {
             padding: 15px;
+            transition: .3s;
+            position: relative;
+        }
+
+        .btn:hover {
+            position: relative;
+            padding: 15px;
+            background-color: #333;
         }
 
         nav.menu_bar ul {
@@ -42,11 +54,13 @@
         a.logo {
             color: #fff;
             margin-left: 15px;
+            padding: 15px;
         }
 
         li {
-            margin-left: 15px;
+         /*   margin-left: 15px;*/
         }
+
 
         main {
             height: 80vh;
@@ -80,13 +94,14 @@
         .botao-central a:hover {
             background-color: rgb(95, 86, 86);
             transition: 0.5s;
+           
         }
 
         .bem-vindo {
             
             text-align: center;
             color: #fff;
-            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.63);
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.466);
             font-size: 2.5em;
         }
 
@@ -125,18 +140,18 @@
 </head>
 <body>
     <header id="menu">
-        <a href="#" class="logo">logo</a>
+        <a href="animacao.html" class="logo">logo</a>
         <nav class="menu_bar">
             <ul>
-                <li class="home">home</li>
-                <li class="contato">contato</li>
-                <li class="galeria">galeria</li>
+                <li class="home btn">home</li>
+                <li class="contato btn">contato</li>
+                <li class="galeria btn ">galeria</li>
             </ul>
         </nav>
     </header>
     <main>
         <div class="bem-vindo">
-            Bem vindo a burguerkingdom
+            Bem vindo a Stop Burguer
         </div>
         <div class="botao-central">
             
