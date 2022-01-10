@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sla</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        header#menu {
+            display: flex;
+            width: 100%;
+            background-color: rgb(37, 37, 37);
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            color: #fff;
+        }
+
+        header a {
+            text-decoration: none;
+        }
+
+        nav.menu_bar {
+            padding: 15px;
+        }
+
+        nav.menu_bar ul {
+        list-style-type: none;
+        display: flex;
+        }
+
+        a.logo {
+            color: #fff;
+            margin-left: 15px;
+        }
+
+        li {
+            margin-left: 15px;
+        }
+
+        div.botao-central {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 94vh;
+            background: url(imagens/pexels-yelena-odintsova-10686714.jpg) center center ;
+            background-size: cover;
+            flex-direction: column;
+            /* overlay (escurinho) */
+
+            background-color: rgba(0, 0, 0, 0.3);
+            background-blend-mode: color;
+        }
+
+        .botao-central a {
+            height: 18px;
+            max-width: 28vw;
+            min-width: px;
+            text-decoration: none;
+            color: #fff;
+            background-color: rgb(66, 62, 62);
+            border-radius: 5px;
+            padding: 12px;
+        }
+
+        .botao-central a:hover {
+            background-color: rgb(95, 86, 86);
+            transition: 0.5s;
+        }
+
+        .bem-vindo {
+            display: flex;       
+            text-align: center;
+            color: #fff;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.63);
+            font-size: 2.5em;
+            margin-bottom: 50px;
+        }
+
+    </style>
+</head>
+<body>
+    <header id="menu">
+        <a href="#" class="logo">logo</a>
+        <nav class="menu_bar">
+            <ul>
+                <li class="home">home</li>
+                <li class="contato">contato</li>
+                <li class="galeria">galeria</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="botao-central">
+            <div class="bem-vindo">
+                Bem-vindo a burguer-kingdom
+            </div>
+            <a href="botao">Ver cardápio</a>
+
+        </div>
+    </main>
+</body>
+</html>

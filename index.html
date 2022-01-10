@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sla</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: #333;
+        }
+
+        header#menu {
+            display: flex;
+            width: 100%;
+            background-color: rgb(37, 37, 37);
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            color: #fff;
+        }
+
+        header a {
+            text-decoration: none;
+        }
+
+        nav.menu_bar {
+            padding: 15px;
+        }
+
+        nav.menu_bar ul {
+        list-style-type: none;
+        display: flex;
+        }
+
+        a.logo {
+            color: #fff;
+            margin-left: 15px;
+        }
+
+        li {
+            margin-left: 15px;
+        }
+
+        main {
+            height: 80vh;
+            background: url(imagens/pexels-yelena-odintsova-10686714.jpg) center center ;
+            background-size: cover;
+            background-color: rgba(0, 0, 0, 0.3);
+            background-blend-mode: color;
+            padding-top: 80px;
+        }
+
+        div.botao-central {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50%;
+
+            flex-direction: column;
+            /* overlay (escurinho) */
+        }
+
+        .botao-central a {
+            height: 18px;
+            max-width: 28vw;
+            text-decoration: none;
+            color: #fff;
+            background-color: rgb(66, 62, 62);
+            border-radius: 5px;
+            padding: 12px;
+        }
+
+        .botao-central a:hover {
+            background-color: rgb(95, 86, 86);
+            transition: 0.5s;
+        }
+
+        .bem-vindo {
+            
+            text-align: center;
+            color: #fff;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.63);
+            font-size: 2.5em;
+        }
+
+        footer {
+            display: flex;
+            background-color: rgb(37, 37, 37);
+            padding: 15px;
+            padding-bottom: 10px;
+            text-align: center;
+            justify-content: center;
+        }
+
+        footer a {
+            color: #fff;
+        }
+
+        img {        
+            max-width: 25px;
+            margin-left: 20px;
+        }
+
+        /*media queries*/
+        @media (max-width: 750px) {
+            .bem-vindo {
+                font-size: 2rem;
+            }
+        }
+        @media (max-width: 520px) {
+            .bem-vindo {
+                font-size: 1.6rem;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+    <header id="menu">
+        <a href="#" class="logo">logo</a>
+        <nav class="menu_bar">
+            <ul>
+                <li class="home">home</li>
+                <li class="contato">contato</li>
+                <li class="galeria">galeria</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="bem-vindo">
+            Bem vindo a burguerkingdom
+        </div>
+        <div class="botao-central">
+            
+            <a href="botao">Ver cardápio</a>
+
+        </div>
+    </main>
+    <footer>
+        <a href="https://www.instagram.com/andradezz__/">Guilherme Andrade</a>
+        <img src="imagens/pngwing.com.png" alt="andradezz__">
+    </footer>
+</body>
+</html>
