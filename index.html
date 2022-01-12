@@ -31,6 +31,11 @@
             text-decoration: none;
         }
 
+        ul a {
+            text-decoration: none;
+
+        }
+
         nav.menu_bar {
          /*   padding: 15px;*/
         }
@@ -40,6 +45,7 @@
             transition: .3s;
             position: relative;
         }
+
 
         .btn:hover {
             position: relative;
@@ -52,14 +58,14 @@
         display: flex;
         }
 
+        .menu_bar li {
+            color: #fff;
+        }
+
         a.logo {
             color: #fff;
             margin-left: 15px;
             padding: 15px;
-        }
-
-        li {
-        
         }
 
 
@@ -97,6 +103,7 @@
             transition: 0.5s;
            
         }
+
 
         .bem-vindo {
             
@@ -143,9 +150,15 @@
         <a href="animacao.html" class="logo">logo</a>
         <nav class="menu_bar">
             <ul>
-                <li class="home btn"><a href="index.html">home</a></li>
-                <li class="contato btn"><a href="https://www.instagram.com/andradezz__/">Instagram</a></li>
-                <li class="galeria btn "><a href="https://github.com/guilhermeandradee">galeria</a></li>
+                <a href="index.html">
+                    <li class="home btn">Home</li>
+                </a>
+                <a href="https://www.instagram.com/andradezz__/" target="blank_">
+                    <li class="contato btn" target="blank_">Instagram</li>
+                </a>
+                <a href="https://github.com/guilhermeandradee" target="blank_">
+                    <li class="galeria btn ">Galeria</li>
+                </a>
             </ul>
         </nav>
     </header>
